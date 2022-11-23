@@ -1,0 +1,225 @@
+body {
+    background-color: #fff2cc;
+    width: 900px;
+    margin: auto;
+}
+
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2,h3 {
+    text-transform: uppercase;
+}
+
+header { 
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: rgba(72, 43, 23, 0.489) solid;
+}
+
+div.titrepluslogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 7em
+}
+
+.titrepage img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.titrepage {
+    display: flex;
+    align-items: center;
+    font-size: 1em  ;
+}
+
+.soustitrepage {
+    margin-top: -0.2em;
+    font-size: 0.8em;
+}
+
+nav ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15px;    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    transition: 300ms;
+}
+
+nav a:hover {
+    color: blueviolet;
+    text-decoration: underline blueviolet ;
+    transition: 300ms;
+    rotate: 45°;
+}
+
+.txtbanniere {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 1em;
+}
+.banniere {
+    background: url(images/sanfrancisco.jpg) no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px;
+    height: 200px;
+    width: 900px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.txtbanniere a {
+    background-color: rgb(169, 126, 74);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px 5px 5px ;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    font-size: 0.9em ;
+    transition: 400ms;
+}
+
+.txtbanniere a:hover{
+    background-color: rgb(44, 24, 5);
+    color: white;
+    transition: 400ms;
+}
+
+.titrearticle{
+    display: flex;
+    align-items: center;
+}
+
+.titrearticle img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.contenu {
+    display: flex;
+    align-items: center;
+    padding-bottom: 75px;
+    box-shadow: 0px 8px 5px -7px;
+    border-bottom: rgba(72, 43, 23, 0.489) solid;
+}
+aside{
+    width: 120%;
+    margin-left: 50px;
+    background-color: rgb(112, 107, 100);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px;
+    position: relative;
+}
+
+.Biographie article{
+    position:absolute;
+    left: -12px;
+    top: 100px;
+}
+.réseaux{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Biotitre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Biotitre img {
+    border: 1px solid black;
+}
+
+.icotop{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mesphotos p img{
+    border: 1px solid;
+    margin: 2px;
+}
+
+.mesamis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    width: 35%;
+}
+
+.mesamis div{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+    color: #760001;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer h1{
+    font-size: 1.1em;
+}
+
+footer p, footer ul{
+    font-size: 0.8em;
+}
+
